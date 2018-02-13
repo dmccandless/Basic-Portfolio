@@ -13,14 +13,9 @@ body{
 .content-entire{
 	width: 960px;
 	background-color: #ffffff;
-}
-
-.content-section{
-	width: 650px;
-}
-
-.content-aside{
-	width: 270px;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -33,18 +28,77 @@ h1, h2, h3, h4, h5, h6{
 	background-color: #ffffff;
 }
 
+.content-section{
+	width: 650px;
+	float: left;
+}
+
+.content-section h2{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: white;
+	color: #4aaaa5;
+}
+
+.content-aside{
+	width: 270px;
+	float: right;
+}
+
+.content-aside h3{
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	background-color: white;
+	color: #4aaaa5;
+}
+
 .content-footer{
 	background-color: #666666;
+	text-align: center;
+}
+
+.nav-site{
+	width: 200px;
+	float: right;
+}
+
+.heading-portfolio{
+	width: 300px;
+	position: relative;
+	top: -40px;
+}
+
+#heading-name{
+	width: 200px;
+	float: left;
+}
+
+#profile-pic{
+	transform: rotate(90deg);
+	float: left;
+}
+
+.image-wrapper{
+	float: left;
 }
 
 #portfolio-item-01,
 #portfolio-item-02,
 #portfolio-item-03,
 #portfolio-item-04,
-#portfolio-item-05,
+#portfolio-item-05{
+	width: 300px;
+	height: 200px;
+}
+
 #profile-pic{
 	width: 200px;
 	height: 200px;
+}
+
+#social-01,
+#social-02,
+#social-03{
+	width: 50px;
+	height: 50px;
 }
 
 
