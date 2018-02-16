@@ -8,14 +8,28 @@ body{
 	width: 1024px;
 	font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
 	color: #777777;
+	background-color: white;
+}
+
+
+
+
+header{
+	width: 1020px;
+	height: 30px;
+	background-color: white;
+}
+
+p{
+	padding: 4px;
+	line-height: 1.5;
 }
 
 .content-entire{
 	width: 960px;
-	background-color: #ffffff;
-	clear: both;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 20px;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -24,13 +38,21 @@ h1, h2, h3, h4, h5, h6{
 	color: white;
 }
 
-.content-header{
-	background-color: #ffffff;
+main{
+	width: 1020px;
+	background-color: lightgray;
+	border-top: 2px solid #dddddd;
+	clear: both;
+	height: 400px;
 }
+
+
 
 .content-section{
 	width: 650px;
 	float: left;
+	padding-right: 10px;
+	background-color: white;
 }
 
 .content-section h2{
@@ -42,6 +64,7 @@ h1, h2, h3, h4, h5, h6{
 .content-aside{
 	width: 270px;
 	float: right;
+	background-color: white;
 }
 
 .content-aside h3{
@@ -50,9 +73,15 @@ h1, h2, h3, h4, h5, h6{
 	color: #4aaaa5;
 }
 
-.content-footer{
+footer {
+	width: 1020px;
 	background-color: #666666;
 	text-align: center;
+	padding: 15px;
+	color: white;
+	border-top: 5px solid #4aaaa5;
+	max-height: 50px;
+	clear: both;
 }
 
 .nav-site{
@@ -61,7 +90,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .heading-portfolio{
-	width: 300px;
+	width: 250px;
 	position: relative;
 	top: -40px;
 }
@@ -69,11 +98,18 @@ h1, h2, h3, h4, h5, h6{
 #heading-name{
 	width: 200px;
 	float: left;
+	padding: 10px;
+	position: relative;
+	left: 20px;
 }
 
 #profile-pic{
 	transform: rotate(90deg);
 	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 5px;
+
 }
 
 .image-wrapper{
@@ -85,20 +121,21 @@ h1, h2, h3, h4, h5, h6{
 #portfolio-item-03,
 #portfolio-item-04,
 #portfolio-item-05{
-	width: 300px;
-	height: 200px;
+	width: 250px;
+	height: 100px;
 }
 
-#profile-pic{
-	width: 200px;
-	height: 200px;
-}
+
 
 #social-01,
-#social-02,
 #social-03{
 	width: 50px;
 	height: 50px;
+}
+
+#social-02{
+	width: 54px;
+	height: 54px;
 }
 
 
