@@ -11,9 +11,6 @@ body{
 	background-color: white;
 }
 
-
-
-
 header{
 	width: 1020px;
 	height: 30px;
@@ -40,10 +37,10 @@ h1, h2, h3, h4, h5, h6{
 
 main{
 	width: 1020px;
-	background-color: lightgray;
 	border-top: 2px solid #dddddd;
 	clear: both;
 	height: 400px;
+	background-image: url("../images/intersection.png");
 }
 
 
@@ -90,7 +87,7 @@ footer {
 }
 
 .heading-portfolio{
-	width: 250px;
+	width: 220px;
 	position: relative;
 	top: -40px;
 }
@@ -104,9 +101,8 @@ footer {
 }
 
 #profile-pic{
-	transform: rotate(90deg);
 	float: left;
-	width: 100px;
+	width: 130px;
 	height: 100px;
 	margin-right: 5px;
 
@@ -121,8 +117,8 @@ footer {
 #portfolio-item-03,
 #portfolio-item-04,
 #portfolio-item-05{
-	width: 250px;
-	height: 100px;
+	width: 220px;
+	height: 170px;
 }
 
 
@@ -138,7 +134,27 @@ footer {
 	height: 54px;
 }
 
+nav a{
+	text-decoration: none;
+	color: #ddd;
+}
 
+nav a:visited{
+	text-decoration: none;
+	color: purple;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color: red;
+
+}
+
+nav a:focus, a:active{
+	text-decoration: none;
+	color: black;
+	background-color: tan;
+}
 
 
 
